@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZeroPlant</title>
+    <link rel="stylesheet" href="/static/css/plant_info.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <span>Zero Plant</span>
+            </div>
+            <ul class="nav-links">
+              <li><a href="main.html" class="nav-link">About</a></li>
+              <li><a href="flowers.html"class ="nav-link active">Flowers</a></li>
+              <li><a href="plant.html" class="nav-link">Plant</a></li>
+              <li><a href="growth.html"class="nav-link">Growth</a></li>
+          </ul>
+            <div class="nav-icons">
+                <a href="#"><img src="/static/images/cartblack.png" alt="Cart"></a>
+                <a href="#"><img src="/static/images/userblack.png" alt="User"></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="product-container">
+            <div class="product-image">
+                <img src="/static/images/tomato.png" alt="선라이즈 꽃다발">
+            </div>
+            <div class="product-details">
+                <h1>토마토</h1>
+                <div class="rating">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="rating-count">(18)</span>
+              </div>
+                <p class="price">4,900원</p>
+                <p class="description">
+                    기존 일회용기 화분 사용 시에 발생하는 폐기물을 없애고 바이오 팩을 사용하여 CO2 발생량을 10% 줄였습니다!
+                </p>
+                
+                <div class="select-container">
+                    <select class="select-box">
+                        <option>Select Package Type</option>
+                        <option value="herb">바질 씨앗 바이오팩 (Herb)</option>
+                        <option value="veggie">토마토 씨앗 바이오팩 (Veggie)</option>
+                        <option value="sprout">참깨 씨앗 바이오팩 (Sprout)</option>
+                    </select>
+                </div>
+                <button class="add-to-cart">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="product-container2">
+            <p style="position: relative;left:-30px;top:-180px; font-size: large;">관련 상품</p>
+            <div class="product">
+                <a  href = "plant_info.html">
+                    <img src="/static/images/plant_img3.png" alt="Sun rise bouquet"></a>
+                    <p>당근</p>
+                
+            </div>
+            <div class="product">
+                <a  href = "plant_info.html">
+                <img src="/static/images/basil.png" alt="palate bouquet"></a>
+                    <p >바질</p>
+            </div>
+            <div class="product">
+                    <a  href = "plant_info.html">
+                    <img src="/static/images/lettuce.png" alt="blue white bouquet"></a>
+                    <p>상추</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

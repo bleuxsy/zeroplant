@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZeroPlant</title>
+    <link rel="stylesheet" href="/static/css/reward.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <span>Zero Plant</span>
+            </div>
+            <ul class="nav-links">
+              <li><a href="main.html" class="nav-link">About</a></li>
+              <li><a href="flowers.html"class ="nav-link">Flowers</a></li>
+              <li><a href="plant.html" class="nav-link">Plant</a></li>
+              <li><a href="growth.html"class="nav-link active">Growth</a></li>
+          </ul>
+            <div class="nav-icons">
+                <a href="#"><img src="/static/images/cartblack.png" alt="Cart"></a>
+                <a href="#"><img src="/static/images/userblack.png" alt="User"></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+      <div class="plant-container">
+        <button class="scroll-btn left-btn"><i class="fas fa-chevron-left"></i></button>
+        <div class="plant-items">
+            <div class="plant-item" onclick="toggleSelection(this)">
+                <img src="/static/images/tomato.png" alt="토마토 바이오 패키지">
+                <p>토마토 바이오 패키지</p>
+                <span class="checkmark"><i class="fas fa-check"></i></span>
+            </div>
+            <div class="plant-item" onclick="toggleSelection(this)">
+                <img src="/static/images/basil.png" alt="바질 바이오 패키지">
+                <p>바질 바이오 패키지</p>
+                <span class="checkmark"><i class="fas fa-check"></i></span>
+            </div>
+            <div class="plant-item" onclick="toggleSelection(this)">
+                <img src="/static/images/lettuce.png" alt="상추 바이오 패키지">
+                <p>상추 바이오 패키지</p>
+                <span class="checkmark"><i class="fas fa-check"></i></span>
+            </div>
+            <div class="plant-item" onclick="toggleSelection(this)">
+                <img src="/static/images/tomato.png" alt="당근 바이오 패키지">
+                <p>당근 바이오 패키지</p>
+                <span class="checkmark"><i class="fas fa-check"></i></span>
+            </div>
+        </div>
+        <button class="scroll-btn right-btn"><i class="fas fa-chevron-right"></i></button>
+    </div>
+    </main>
+    <script src="/static/js/reward.js"></script>
+</body>
+</html>
